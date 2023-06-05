@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Datos</h1>
+    <form action="formulario" method="post">
+      <label for="name">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" size="35"/><br /><br />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="Ingresa tu email" size="35" /><br /><br />
+
+      <label for="respuesta">Participa:</label>
+      <textarea id="respuesta" name="respuesta" placeholder="Ingresa tu respuesta" size="35"></textarea><br /><br />
+
+      <button type="button" onclick="captura()" >Capturar</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
